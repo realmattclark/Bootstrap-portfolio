@@ -14,17 +14,22 @@
 
 body {
     display: block;
+    padding-top: 20px;
     margin: auto;
     background: url(../images/papyrus.jpg);
-    background-position: 100% 100%;
+    background-position:-25px 100% ;
 }
 
 .box1 {
+    display: block;
+    margin: auto;
+    background: url(../images/papyrus.jpg);
+    background-position: 100% 100%;
     background: white;
     width: 60%;
     border: 1px rgb(102, 99, 99);
     padding-top: 15px;
-    padding-bottom: 400px;
+    padding-bottom: 40px;
     padding-left: 10px;
     margin-top: 50px;
     margin-left: 100px;
@@ -35,7 +40,7 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 30px;
+    height: 35px;
     background-color: gray;
     color: white;
     text-align: center;
@@ -64,7 +69,6 @@ p {
 
 .nav.justify-content-end li a {
     color: gray;
-    background-color: white;
 }
 
 .topbox {
@@ -78,4 +82,14 @@ p {
     top: 50%;
     left: 50%;
     transform: translate (-50%, -50%);
+}
+
+.card-title {
+    background: #4aaaa5;
+    color: white;
+}
+
+.card2 {
+    display: block;
+    float: clear right;
 }
