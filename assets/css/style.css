@@ -47,6 +47,9 @@ body {
 }
 #footertext {
     color: white;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 h1 {
@@ -69,12 +72,16 @@ p {
 
 .nav.justify-content-end li a {
     color: gray;
+    margin-right: 30px;
 }
 
-.topbox {
+header {
     background-color: white;
+    border-bottom: 10px, black;
+    margin-top: -20px;
+    height: 65px;
     width: 100%;
-    height: 20px;
+
 }
 
 .centered {
@@ -92,4 +99,17 @@ p {
 .card2 {
     display: block;
     float: clear right;
+}
+
+.centered {
+    background-color: #4aaaa5;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 32%;
+    transform: translate(-75%, -25%)
+}
+
+.btn.btn-primary {
+    background-color: #4aaaa5;
 }
